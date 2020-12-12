@@ -1,0 +1,7 @@
+config.ini
+*.session*
+.idea
+members*
+profile_pics*
+scraper.log
+__pycache__

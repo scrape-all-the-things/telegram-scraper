@@ -1,0 +1,50 @@
+[telegram]
+api_id = 1234567
+api_hash = 12345678901234567890123456789012
+phone = +12345678901
+
+[logging]
+; Documentation: https://docs.python.org/3/howto/logging.html
+level = INFO
+file = scraper.log
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+[scraper]
+download_profile_photos = False
+user_fields = [
+    "id",
+    "username",
+    "first_name",
+    "last_name",
+    "phone",
+    "status",
+    "bot",
+    "bot_chat_history",
+    "bot_info_version",
+    "bot_inline_geo",
+    "bot_inline_placeholder",
+    "bot_nochats",
+    "contact",
+    "deleted",
+    "is_self",
+    "lang_code",
+    "min",
+    "mutual_contact",
+    "participant",
+    "photo",
+    "restricted",
+    "restriction_reason",
+    "scam",
+    "support",
+    "verified"
+    ]
+extended_user_fields = [
+    "profile_photo",
+    "common_chats_count",
+    "phone_calls_available",
+    "phone_calls_private",
+    "about",
+    "bot_info",
+    "pinned_msg_id",
+    "folder_id"
+    ]
